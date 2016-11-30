@@ -1,0 +1,52 @@
+
+Operation | C | Total |  z 
+---------------------------------------------------------------------
+Initial   | 0 |     0 | *C is a relatively "low level" language.
+Replace   | 4 |     4 | J* is a relatively "low level" language.
+Insert    | 3 |     7 | Ja* is a relatively "low level" language.
+Insert    | 3 |    10 | Jav* is a relatively "low level" language.
+Insert    | 3 |    13 | Java* is a relatively "low level" language.
+Right     | 0 |    13 | Java *is a relatively "low level" language.
+Right     | 0 |    13 | Java i*s a relatively "low level" language.
+Right     | 0 |    13 | Java is* a relatively "low level" language.
+Right     | 0 |    13 | Java is *a relatively "low level" language.
+Right     | 0 |    13 | Java is a* relatively "low level" language.
+Insert    | 3 |    16 | Java is an* relatively "low level" language.
+Right     | 0 |    16 | Java is an *relatively "low level" language.
+Replace   | 4 |    20 | Java is an o*elatively "low level" language.
+Insert    | 3 |    23 | Java is an ob*elatively "low level" language.
+Insert    | 3 |    26 | Java is an obj*elatively "low level" language.
+Right     | 0 |    26 | Java is an obje*latively "low level" language.
+Replace   | 4 |    30 | Java is an objec*atively "low level" language.
+Delete    | 2 |    32 | Java is an objec*tively "low level" language.
+Right     | 0 |    32 | Java is an object*ively "low level" language.
+Replace   | 4 |    36 | Java is an object-*vely "low level" language.
+Delete    | 2 |    38 | Java is an object-*ely "low level" language.
+Delete    | 2 |    40 | Java is an object-*ly "low level" language.
+Delete    | 2 |    42 | Java is an object-*y "low level" language.
+Delete    | 2 |    44 | Java is an object-* "low level" language.
+Delete    | 2 |    46 | Java is an object-*"low level" language.
+Delete    | 2 |    48 | Java is an object-*low level" language.
+Delete    | 2 |    50 | Java is an object-*ow level" language.
+Right     | 0 |    50 | Java is an object-o*w level" language.
+Replace   | 4 |    54 | Java is an object-or* level" language.
+Replace   | 4 |    58 | Java is an object-ori*level" language.
+Delete    | 2 |    60 | Java is an object-ori*evel" language.
+Right     | 0 |    60 | Java is an object-orie*vel" language.
+Replace   | 4 |    64 | Java is an object-orien*el" language.
+Insert    | 3 |    67 | Java is an object-orient*el" language.
+Right     | 0 |    67 | Java is an object-oriente*l" language.
+Replace   | 4 |    71 | Java is an object-oriented*" language.
+Delete    | 2 |    73 | Java is an object-oriented* language.
+Right     | 0 |    73 | Java is an object-oriented *language.
+Right     | 0 |    73 | Java is an object-oriented l*anguage.
+Right     | 0 |    73 | Java is an object-oriented la*nguage.
+Right     | 0 |    73 | Java is an object-oriented lan*guage.
+Right     | 0 |    73 | Java is an object-oriented lang*uage.
+Right     | 0 |    73 | Java is an object-oriented langu*age.
+Right     | 0 |    73 | Java is an object-oriented langua*ge.
+Right     | 0 |    73 | Java is an object-oriented languag*e.
+Right     | 0 |    73 | Java is an object-oriented language*.
+Right     | 0 |    73 | Java is an object-oriented language.*
+
+Edit Distance:73

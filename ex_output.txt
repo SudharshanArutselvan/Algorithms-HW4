@@ -1,0 +1,32 @@
+
+Operation | C | Total |  z 
+---------------------------------------------------------------------
+Initial   | 0 |     0 | *electrical engineering
+Delete    | 2 |     2 | *lectrical engineering
+Delete    | 2 |     4 | *ectrical engineering
+Delete    | 2 |     6 | *ctrical engineering
+Right     | 0 |     6 | c*trical engineering
+Insert    | 3 |     9 | co*trical engineering
+Insert    | 3 |    12 | com*trical engineering
+Insert    | 3 |    15 | comp*trical engineering
+Insert    | 3 |    18 | compu*trical engineering
+Right     | 0 |    18 | comput*rical engineering
+Insert    | 3 |    21 | compute*rical engineering
+Right     | 0 |    21 | computer*ical engineering
+Replace   | 4 |    25 | computer *cal engineering
+Insert    | 3 |    28 | computer s*cal engineering
+Right     | 0 |    28 | computer sc*al engineering
+Replace   | 4 |    32 | computer sci*l engineering
+Delete    | 2 |    34 | computer sci* engineering
+Delete    | 2 |    36 | computer sci*engineering
+Right     | 0 |    36 | computer scie*ngineering
+Right     | 0 |    36 | computer scien*gineering
+Replace   | 4 |    40 | computer scienc*ineering
+Delete    | 2 |    42 | computer scienc*neering
+Delete    | 2 |    44 | computer scienc*eering
+Right     | 0 |    44 | computer science*ering
+Delete    | 2 |    46 | computer science*ring
+Delete    | 2 |    48 | computer science*ing
+Delete    | 2 |    50 | computer science*ng
+Delete    | 2 |    52 | computer science*g
+Delete    | 2 |    54 | computer science*
